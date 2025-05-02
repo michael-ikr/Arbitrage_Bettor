@@ -22,7 +22,8 @@ This project fetches upcoming sports event odds from multiple bookmakers via The
     API_KEY = 'YOUR_API_KEY_HERE'
     ```
     Replace `'YOUR_API_KEY_HERE'` with your actual API key.
-3.  **Parameters (Optional):** You can adjust variables like `SPORT`, `REGIONS`, `MARKETS`, and `BET_SIZE` near the top of the script to change the scope of the search.
+3. **Google Drive:** This notebook automatically saves a file of upcoming in your drive assuming you give it permission when it runs. You can remove the two lines that do this in the third block of code. Note that regardless of this decision, this notebook will save a file of upcoming bets locally as a .xlsx file and update every time you run the notebook.
+4.  **Parameters (Optional):** You can adjust variables like `SPORT`, `REGIONS`, `MARKETS`, and `BET_SIZE` near the top of the script to change the scope of the search.
 
 ## Usage
 
